@@ -1,3 +1,5 @@
+// O(1) per Query for Idempotent Functions like min/max/gcd.
+
 const int MAX_N = 2e5 + 10; 
 const int MAX_LOG = 25;
 int RMQ[MAX_N][MAX_LOG];
